@@ -1,0 +1,7 @@
+// https://docs.zephyrproject.org/2.6.0/reference/devicetree/bindings/i2s/nordic%2Cnrf-i2s.html#dtbinding-nordic-nrf-i2s
+i2s_rxtx: &i2s0 {
+	status = "okay";
+	sck-pin = <47>;   // Serial clock (SCK)
+	lrck-pin = <44>;  // Left right clock (LRCK)
+	sdout-pin = <45>; // Data Out
+};
