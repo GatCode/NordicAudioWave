@@ -1,9 +1,9 @@
 <p align="center">
   <img width="500" src="assets/logo.jpg">
   <p align="center">
-	<img alt="license" src="https://img.shields.io/badge/license-GPL-blue">
   <img alt="nrf5340" src="https://img.shields.io/badge/Nordic-nrf5340-blue">
   <img alt="zephyr" src="https://img.shields.io/badge/RTOS-Zephyr-blueviolet">
+  <img alt="license" src="https://img.shields.io/badge/License-Apache-blue">
   </p>
 </p>
 <br>
