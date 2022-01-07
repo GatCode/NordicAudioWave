@@ -11,7 +11,7 @@
 ## About
 Since at this point in time, there is very little information available on how to use a [nrf5340dk board](https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK/GetStarted?lang=en) in combination with an I2S DAC chip ([Adafruit I2S Stereo Decoder - UDA1334A](https://www.adafruit.com/product/3678) in my case), the code in this repository will give you a brief overview on how you can achieve this goal.
 
-This sample is based on the [Zephyr I2S testcases](https://github.com/anangl/zephyr/tree/16a1c81d6f2becbf561a615337de8ba65af31533/tests/drivers/i2s/i2s_api/src), as well as the [I2S Echo sample](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/drivers/i2s/echo). Please take a look at these samples if you want to get further information on how you can use the I2S driver itself.
+This sample is based on the [Zephyr I2S testcases](https://github.com/anangl/zephyr/tree/16a1c81d6f2becbf561a615337de8ba65af31533/tests/drivers/i2s/i2s_api/src) (copied sine wave data_frame table), as well as the [I2S Echo sample](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/drivers/i2s/echo). Please take a look at these samples if you want to get further information on how you can use the I2S driver itself.
 
 Furthermore, the concrete API definitions can be found [here](https://docs.zephyrproject.org/latest/reference/audio/i2s.html).
 
