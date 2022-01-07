@@ -6,7 +6,6 @@
   <img alt="license" src="https://img.shields.io/badge/License-Apache-blue">
   </p>
 </p>
-<br>
 
 ## About
 Since at this point in time, there is very little information available on how to use a [nrf5340dk board](https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK/GetStarted?lang=en) in combination with an I2S DAC chip ([Adafruit I2S Stereo Decoder - UDA1334A](https://www.adafruit.com/product/3678) in my case), the code in this repository will give you a brief overview on how you can achieve this goal.
