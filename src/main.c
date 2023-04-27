@@ -1,8 +1,9 @@
-#include <zephyr.h>
 #include <string.h>
 #include <nrf.h>
-#include <device.h>
-#include <drivers/i2s.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/i2s.h>
+#include <zephyr/drivers/gpio.h>
 
 /* Prepare for 32 sample values */
 #define NUM_SAMPLES 32
