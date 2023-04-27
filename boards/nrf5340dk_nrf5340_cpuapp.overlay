@@ -1,7 +1,22 @@
 // https://docs.zephyrproject.org/2.6.0/reference/devicetree/bindings/i2s/nordic%2Cnrf-i2s.html#dtbinding-nordic-nrf-i2s
+&pinctrl {
+	i2s0_default_alt: i2s0_default_alt {
+		group1 {
+			psels = <NRF_PSEL(I2S_SCK_M, 1, 15)>,
+				<NRF_PSEL(I2S_LRCK_M, 1, 12)>,
+				<NRF_PSEL(I2S_SDOUT, 1, 13)>,
+				<NRF_PSEL(I2S_SDIN, 1, 14)>;
+		};
+	};
+};
+
+&clock {
+	hfclkaudio-frequency = <11289600>;
+};
+
 i2s_rxtx: &i2s0 {
 	status = "okay";
-	sck-pin = <47>;   // Serial clock (SCK)
-	lrck-pin = <44>;  // Left right clock (LRCK)
-	sdout-pin = <45>; // Data Out
+	pinctrl-0 = <&i2s0_default_alt>;
+	pinctrl-names = "default";
+	clock-source = "ACLK";
 };
